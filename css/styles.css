@@ -1,0 +1,100 @@
+/*
+#364f6b
+#3fc1c9
+#f5f5f5
+#fc5185
+Colors*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f5f5;
+}
+.ateen{
+  font-family: 'Sacramento', cursive;
+  font-size: 1cm;
+  color: #3fc1c9;
+  margin: 0;
+  font-size: 2.125rem;
+  font-weight: normal;
+  line-height: 2;
+}
+h1 {
+  color: #fc5185;
+  font-size: 100px;
+  font-family: 'Kaushan Script', cursive;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  line-height: 2;
+}
+
+.top-container {
+  align-content: center;
+  background-color: #364f6b;
+  height: 100%;
+  padding-top: 100px;
+  width: 100%;
+  position: relative;
+}
+
+.middle-container {
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+
+}
+
+.bottom-container {
+   height: 100%;
+   width: 100%;
+}
+
+.bottomcloud {
+  position: absolute;
+  left: 600px;
+  bottom: 275px;
+}
+
+.topcloud {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+
+}
+
+.profile-img{
+  width: 200px;
+  height: 200px;
+}
+
+.ps-img {
+  float: left;
+  height: 10%;
+  margin-right: 30px;
+  width: 10%;
+}
+
+.basketball-img{
+  height: 10%;
+  width: 10%;
+  float: right;
+  margin-left: 30px;
+ }
+
+
+.skills {
+  padding-top: 10px;
+}
+
+.skill-row {
+  margin: 10px 100px 10px 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {}
+
+.contact-me {}
+
+.footer-link {}
