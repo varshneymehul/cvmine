@@ -28,28 +28,39 @@ h1 {
   margin-bottom: 0;
   line-height: 2;
 }
+h2{
+  color: #fc5185;
+}
+h3{
+  padding-top: 30px;
+  font-size: 25px;
+  color: #364F6B;
+}
 
+hr{
+  background-color: #3fc1c9;
+  height: 2px;
+  width: 90%;
+}
 .top-container {
-  align-content: center;
-  background-color: #364f6b;
-  height: 100%;
-  padding-top: 100px;
-  width: 100%;
+  background-color: #364F6B;
   position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
-  height: 100%;
-  width: 100%;
-  padding-top: 10px;
-
+  margin: 100px 0;
 }
 
 .bottom-container {
-   height: 100%;
-   width: 100%;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
 }
 
+.para{
+  padding-bottom: 0;
+  color: #fc5185;
+}
 .bottomcloud {
   position: absolute;
   left: 600px;
@@ -60,12 +71,15 @@ h1 {
   position: absolute;
   right: 500px;
   top: 50px;
-
+  transition: ;
 }
 
 .profile-img{
   width: 200px;
   height: 200px;
+  border-radius: 100%;
+  border-color: #fc5185;
+  border-width: 2em;
 }
 
 .ps-img {
@@ -74,15 +88,22 @@ h1 {
   margin-right: 30px;
   border-radius: 50%;
   float: left;
+  transition: transform .2s;
 }
-
+.ps-img:hover{
+  transform: scale(1.2);
+}
 .basketball-img {
   height: 200px;
   width: 25%;
   margin-left: 30px;
   float: right;
+  transition: transform .2s;
 }
+.basketball-img:hover{
+  transform: scale(1.2) rotate(20deg);
 
+}
 .skill-row {
   margin: 100px auto 100px auto;
   text-align: left;
@@ -92,8 +113,15 @@ h1 {
 .skills {
   padding-top: 10px;
 }
-.btn {}
-
+.btn {
+  background: linear-gradient(#3fc1c9, #364F6B);
+  padding: 10px 20px 10px 20px;
+  border-radius: 100px;
+  color: #f5f5f5;
+}
+.btn:hover{
+  background: linear-gradient(#fc5185, #364F6B);
+}
 .contact-me {}
 
 .footer-link {}
